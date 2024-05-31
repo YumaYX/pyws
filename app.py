@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
+from package import add_f
 
-def add(x, y):
-    return x + y
-
-def test_addition():
-    assert add(1, 2) == 3
-    assert add(0, 0) == 0
-    assert add(-1, 1) == 0
-
+print(add_f.add(4, 5))
