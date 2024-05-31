@@ -1,6 +1,6 @@
 import unittest
 
-from package import add_f
+from src import add_f
 
 class TestSample(unittest.TestCase):
     def setUp(self):
