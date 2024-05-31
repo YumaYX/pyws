@@ -8,6 +8,7 @@ test:
 	python3 -m unittest discover tests/ "test_*.py"
 
 update:
+	make test
 	git status
 	sleep 3
 	git add .

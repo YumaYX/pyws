@@ -19,3 +19,6 @@ class TestSample(unittest.TestCase):
 
     def test_add(self):
         self.assertEqual(add_f.add(4, 5), 9)
+
+    def test_multi(self):
+        self.assertEqual(add_f.multi(4, 5), 20)
