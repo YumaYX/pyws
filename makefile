@@ -12,6 +12,9 @@ inst:
 test:
 	python3 -m unittest discover tests/ "test_*.py"
 
+act:
+	act --container-architecture linux/amd64
+
 update:
 	make test
 	git status
